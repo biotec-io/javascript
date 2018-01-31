@@ -19,7 +19,7 @@
   1. [Methods](#methods)
   1. [Ordering](#ordering)
   1. [`isMounted`](#ismounted)
-  1. [`Changes over the original`](#changes)
+  1. [Changes over the original](#changes)
 
 ## Basic Rules
 
@@ -79,8 +79,8 @@
 
 ## Naming
 
-  - **Extensions**: Use `.jsx` extension for React components.
-  - **Filename**: Use PascalCase for filenames. E.g., `ReservationCard.jsx`.
+  - **Extensions**: Use `.jsx`and `.js` extension for React components.
+  - **Filename**: Use PascalCase for filenames. E.g., `ReservationCard.jsx` or `ReservationCard.js`.
   - **Reference Naming**: Use PascalCase for React components and camelCase for their instances. eslint: [`react/jsx-pascal-case`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md)
 
     ```jsx
@@ -680,7 +680,7 @@
 ## Changes over the original
   - Permit import extraneous dependencies.
   - Enable to use defaultProps for [GatsbyJS](https://www.gatsbyjs.org/) compatibility.
-  - Add **to** for using in anchors tags and anchor components.
+  - Add `to` for using in anchors tags and anchor components.
 
 ## Translation
 
