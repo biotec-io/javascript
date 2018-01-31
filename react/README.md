@@ -1,6 +1,6 @@
-# Airbnb React/JSX Style Guide
+# Biotec.io React/JSX Style Guide
 
-*A mostly reasonable approach to React and JSX*
+*A mostly reasonable approach to React and JSX based on [airbnb/javascript](https://github.com/biotec-io/javascript) default styleguide.
 
 ## Table of Contents
 
@@ -19,12 +19,13 @@
   1. [Methods](#methods)
   1. [Ordering](#ordering)
   1. [`isMounted`](#ismounted)
+  1. [`Changes over the original`](#changes)
 
 ## Basic Rules
 
   - Only include one React component per file.
     - However, multiple [Stateless, or Pure, Components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions) are allowed per file. eslint: [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md#ignorestateless).
-  - Always use JSX syntax.
+  - Enable to use JSX syntax or JS syntax.
   - Do not use `React.createElement` unless you're initializing the app from a file that is not JSX.
 
 ## Class vs `React.createClass` vs stateless
@@ -675,6 +676,11 @@
   > Why? [`isMounted` is an anti-pattern][anti-pattern], is not available when using ES6 classes, and is on its way to being officially deprecated.
 
   [anti-pattern]: https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
+
+## Changes over the original
+  - Permit import extraneous dependencies.
+  - Enable to use defaultProps for [GatsbyJS](https://www.gatsbyjs.org/) compatibility.
+  - Add **to** for using in anchors tags and anchor components.
 
 ## Translation
 
